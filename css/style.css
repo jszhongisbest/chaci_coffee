@@ -1,0 +1,91 @@
+body {
+    font-family: 'Noto Sans TC', Meiryo, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+}
+
+/*置頂區塊*/
+
+.header-user-info a {
+    color: rgb(255, 255, 255);
+}
+
+.header-user-info a:hover {
+    color: #04BFBF;
+    text-decoration: none;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+/*導覽列選單文字*/
+
+#navbarSupportedContent a.nav-link {
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+#navbarSupportedContent a:hover {
+    color: #04BFBF;
+}
+
+/*輪播*/
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-carousel-item {
+    height: 450px;
+}
+
+.section-title {
+    margin-top: 160px;
+    margin-bottom: 70px;
+    position: relative;
+    text-align: center;
+}
+
+/*關於我們*/
+
+@media (min-width: 768px) {
+    .text-md-dark {
+        color: #333;
+    }
+}
+
+/*footer*/
+
+.text-food {
+    color: rgb(126, 85, 10);
+    font-size: 20px;
+}
+
+.text-food a {
+    color: rgb(255, 255, 255);
+}
+
+.text-food a:hover {
+    color: #04BFBF;
+    text-decoration: none;
+}
+
+/*滑動回到頁首按鈕(gotop)*/
+
+#gotop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 5px;
+    background-image: url(../img/gotop.png);
+    cursor: pointer;
+    display: none;
+}
